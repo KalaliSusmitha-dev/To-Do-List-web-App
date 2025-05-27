@@ -19,3 +19,4 @@ This app allows you to add, delete, and mark tasks as completed, with a clean ca
 * HTML5
 * CSS3
 * JavaScript (Vanilla JS )
+![Image](https://github.com/user-attachments/assets/13857c70-3279-4c7b-9f65-8bc77eba6fff)
