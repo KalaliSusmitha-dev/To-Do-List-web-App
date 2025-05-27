@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List with Circular Progress</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>To-Do List</h1>
+      <div class="circle">
+        <svg width="80" height="80">
+          <circle class="bg" cx="40" cy="40" r="40" />
+          <circle class="progress" cx="40" cy="40" r="40" />
+        </svg>
+        <div class="text" id="progressText">0/0</div>
+      </div>
+    </div>
+
+    <label for="taskDate">Select Date:</label>
+    <input type="date" id="taskDate" />
+
+    <label for="taskInput">New Task:</label>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+<br>
+
+    <button id="addBtn">Add Task</button>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
